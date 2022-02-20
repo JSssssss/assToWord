@@ -1,15 +1,9 @@
 <p align="center">
-  <a href="http://lfjs.github.io/assStyleEditor/">
-    http://lfjs.github.io/assStyleEditor/
+  <a href="http://">
+    http://
   </a>
 </p>
 
 <p align="center">
-  运行在浏览器的ass字幕编辑器！
+  ass！
 </p>
-
-## 嗯♂
-
-```bash
-目前还存在许多问题
-```
