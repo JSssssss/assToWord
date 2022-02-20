@@ -1,0 +1,121 @@
+body{
+	font-family:  'Microsoft Yahei','Helvetica Neue', Helvetica, Arial,  'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+	line-height: 1;
+
+}
+.btn{
+
+	line-height: 3;
+	min-width: 100px;
+
+}
+.text{
+
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+
+}
+.stroke{
+	-webkit-text-stroke-width: 14px ;
+	-webkit-text-stroke-color: #f00;
+
+}
+.bg{
+
+}
+.table{
+
+	background-color: dimgrey;
+	color: white;
+	text-align: center;
+	/* vertical-align: bottom; */
+	display: table;
+	height: 320px;
+	width: 640px;
+	margin: 0 auto;
+
+}
+.tableCell{
+
+	display: table-cell;
+	vertical-align: bottom;
+
+	position: relative;
+
+}
+.full{
+
+	border: 1px solid;
+	display: inline-block;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+
+}
+.full:hover{
+	color: black;
+	background-color: white;
+}
+div:-webkit-full-screen .table{
+
+	width: 100%;
+	height: 100%;
+
+}
+div:-webkit-full-screen {
+
+	width: 100vw;
+	height: 100vh;
+	background-color: aquamarine;
+
+}
+
+div:-moz-full-screen::backdrop {
+	background-color: pink;
+}
+
+div:-ms-fullscreen::backdrop {
+	background-color: pink;
+}
+
+.item:fullscreen {
+
+	width: 100vw;
+	height: 100vh;
+	background-color: aquamarine;
+
+}
+.item{
+
+	padding: 10px;
+
+}
+.item:nth-child(odd){
+
+	background-color: #ececec;
+}
+.table-striped>tbody>tr:nth-child(odd)>td{
+
+}
+input[title="undefined"]{
+	display: none;
+}
+.subTitleCon{
+
+	transition:  .2s;
+	-moz-transition:  .2s; /* Firefox 4 */
+	-webkit-transition:  .2s; /* Safari and Chrome */
+	-o-transition:  .2s; /* Opera */
+}
